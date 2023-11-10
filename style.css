@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding-left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.divider-custom{
+    margin:auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider-custom .divider-custom-line{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: darkcyan;
+    border-radius: 1rem;
+    border-color: blanchedalmond;
+}
